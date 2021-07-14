@@ -1,0 +1,64 @@
+body{
+  font-family: 'Otomanopee One', sans-serif;
+}
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+ 
+  .bg-image {
+    background-image: url('../Imagen/pic.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    /* margin: 2%; */
+  }
+
+  /* .bg-image2{
+    background-image:url("../Imagen/profile2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  } */
+
+  .px-15{
+      padding-left: 15%;
+      padding-right: 15%;
+      
+  }
+
+  .fondo1{
+    background-color: #025955;
+  }
+
+  .fondo2{
+    background-color: #CDF0EA;
+  }
+
+  /* .fondo3{
+    background-color: #F3F0D7;
+  } */
+  
+  
+  .bg-image2 {
+    background-image: url('../Imagen/3.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    /* margin: 2%; */
+  }
+  
+  /* .m-10{
+    margin: 0 30% 0 30%;
+  } */
+
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
