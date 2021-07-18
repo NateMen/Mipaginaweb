@@ -56,9 +56,27 @@ body{
     margin: 0 30% 0 30%;
   } */
 
+  .nav-hover{
+    padding: 8px 12px;
+    border-radius: 3px;
+  }
+ .nav-hover:hover{
+   background: darkslategrey;
+   transition: 1s;
+ }
+ 
 
   @media (min-width: 768px) {
     .bd-placeholder-img-lg {
       font-size: 3.5rem;
+    }
+  }
+
+  @media (max-widht:768px) {
+    .nav-m {
+      display: flex;
+      flex-direction: column;
+      background-color: #025955;
+
     }
   }
