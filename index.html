@@ -14,9 +14,11 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel = "stylesheet" href = "icofont/icofont.min.css">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Acme&family=Bree+Serif&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="./css/style.css">
 </head>
 
@@ -28,32 +30,28 @@
   <main>
     <div class="container-fluid px-0 overflow-hidden text-white">
 
-      
-        <!-- MENU -->
-      <nav class="navbar navbar-expand-md fixed-top navbar-light fondo1 bg-gradient fw-bold">
-
-        <div class="container-fluid d-flex justify-content-center ">
-          <a class="navbar-brand text-white nav-hover" href="https://natemen.github.io/">NM</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav mx-auto">
-              <a class="nav-link active text-white nav-hover" aria-current="page" href="#Home">Home</a>
-              <a class="nav-link text-white nav-hover" href="#About">About Me</a>
-              <a class="nav-link text-white nav-hover" href="#Ex">Experience</a>
-              <a class="nav-link text-white nav-hover" href="#Skills">Skills</a>
-              <a class="nav-link text-white nav-hover" href="#Port">Portfolio</a>
-              <a class="nav-link text-white nav-hover" href="#Contact">Contact</a>
+       <!-- MENU -->
+      <nav class="navbar navbar-expand-md fonts-2 fixed-top mb-5 navbar-light fondo1 bg-gradient fw-bold">
+        <a class="navbar-brand text-white nav-hover" href="https://natemen.github.io/"">NM</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse d-flex-sm justify-content-center me-5" id="navbarTogglerDemo01">
+            <div class="navbar-nav ">
+              <a class="nav-item nav-link text-white nav-hover" href="#Home">Home</a>
+              <a class="nav-item nav-link text-white nav-hover" href="#About">About Me</a>
+              <a class="nav-item nav-link text-white nav-hover" href="#Ex">Experience</a>
+              <a class="nav-item nav-link text-white nav-hover" href="#Skills">Skills</a>
+              <a class="nav-item nav-link text-white nav-hover" href="#Port">Portfolio</a>
+              <a class="nav-item nav-link text-white nav-hover" href="#Contact">Contact</a>
             </div>
           </div>
-        </div>
       </nav>
+       
 
       
       <!-- PROFILE -->
-      <div class="row p-5 pb-2 text-center d-flex justify-content-center bg-image" id="Home">
+      <div class="row p-5 pb-2 mt-5 text-center d-flex justify-content-center bg-image" id="Home">
         <!-- <div class="col"></div> -->
         <div class="col-8 col-sm-6 col-md-4 col-lg-3 col-xxl-2">
           <div class="rounded-3">
@@ -126,7 +124,7 @@
          <h2 class="mb-3 fondo1 bg-gradient">Skills</h2>
 
          <div class="col-12 col-sm-10 col-md-8 col-lg-6 col-xxl-4">
-           <h3 class="mt-2 mb-3 mx-5 fondo1 bg-gradient">Personal</h3>
+           <h3 class="mt-2 mb-3 mx-3 mx-sm-5 fondo1 bg-gradient">Personal</h3>
            <ul class="list-group list-group-flush fondo1 bg-gradient p-3 mb-4 mx-2">
              <li class="list-group-item fondo2 bg-gradient">Flexible</li>
              <li class="list-group-item">Creative</li>
@@ -137,7 +135,7 @@
          </div>
 
          <div class="col-12 col-md-10 col-lg-8 col-xl-6">
-          <h3 class="mb-3 mx-5 fondo1 bg-gradient">Profesional</h3>
+          <h3 class="mb-3 mx-3 mx-sm-5 fondo1 bg-gradient">Profesional</h3>
            <ul class="list-group list-group-flush fondo1 bg-gradient p-3 mx-2">
             <li class="list-group-item fondo2 bg-gradient">HTML and CSS</li>
             <li class="list-group-item">Bootstrap 5</li>
@@ -157,12 +155,12 @@
               <figcaption class="figure-caption fondo1 text-white">This Site: I made it using HTML, CSS, Bootstrap 5</figcaption>
             </figure>
           </div>
-          <div class="col-12 col-md-6">
+          <!-- <div class="col-12 col-md-6">
             <figure class="figure">
               <img src="..." class="figure-img img-fluid rounded" alt="...">
               <figcaption class="figure-caption"></figcaption>
             </figure>
-          </div>
+          </div> -->
         </div>
 
 
@@ -175,7 +173,7 @@
             <h5>
               <i class="icofont-email"> E-Mail </i>
             </h5>
-            <h6 class="text-white"> natemenurr177@gmail.com </h6>
+            <h6 class="text-white nav-hover"> natemenurr177@gmail.com </h6>
           </div>
 
 
@@ -183,42 +181,43 @@
             <h5> 
               <i class="icofont-users-alt-1 icofont-1x"> Social Profiles </i>
             </h5>
-            <a class="text-decoration-none" href="https://twitter.com/NathanUrrut">
+            <a class="text-decoration-none nav-hover" href="https://twitter.com/NathanUrrut">
               <i class="  text-white icofont-twitter"></i>
             </a>
-            <a class="text-decoration-none" href="https://www.facebook.com/nathan.mendozaurrutia.56/">
+            <a class="text-decoration-none nav-hover" href="https://www.facebook.com/nathan.mendozaurrutia.56/">
               <i class="text-white icofont-facebook"></i>
             </a>
-            <a class="text-decoration-none" href="https://www.instagram.com/urrutianate77/">
+            <a class="text-decoration-none nav-hover" href="https://www.instagram.com/urrutianate77/">
               <i class="text-white icofont-instagram"></i>
             </a>
           </div>
-        </div>
 
-        <!-- <div class="col-2"></div> -->
 
-        <div class="row text-center d-flex justify-content-center text-dark pt-1 pb-5 bg-image" id="Contact">
+          <div class="row text-center d-flex justify-content-center text-dark pt-1 pb-5 bg-image" id="Contact">
 
-        <!-- <div class="col-2"></div> -->
-          <div class="col-12 col-md-4 mt-2">
-            <h5>
-              <i class="icofont-bag-alt"> Agency I work for </i>
-            </h5>
-            <a class="text-decoration-none" href="https://firstrateprogrammers.azurewebsites.net/#">
-              <i class="text-white icofont-business-man"> FRP </i>
-            </a>
-          </div>
-
-          <div class="col-12 col-md-4 mt-2">
-            <h5>
-              <i class="icofont-business-man"> Upwork Profile </i>
-            </h5>
-            <a class="text-decoration-none" href="https://www.upwork.com/freelancers/~01774502086eab0f14">
-              <i class="icofont-card text-white"></i>
-            </a>
+            <div class="col-12 col-md-4 mt-2">
+              <h5>
+                <i class="icofont-bag-alt"> Agency I work for </i>
+              </h5>
+              <a class="text-decoration-none nav-hover" href="https://firstrateprogrammers.azurewebsites.net/#">
+                <i class="text-white icofont-business-man"> FRP </i>
+              </a>
+            </div>
+  
+            <div class="col-12 col-md-4 mt-2">
+              <h5>
+                <i class="icofont-business-man"> Upwork Profile </i>
+              </h5>
+              <a class="text-decoration-none nav-hover" href="https://www.upwork.com/freelancers/~01774502086eab0f14">
+                <i class="icofont-card text-white"></i>
+              </a>
+            </div>
           </div>
         </div>
-        <!-- <div class="col-2"></div> -->
+
+
+
+       
 
 
          <!-- FOOTER -->

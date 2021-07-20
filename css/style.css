@@ -1,5 +1,8 @@
 body{
-  font-family: 'Otomanopee One', sans-serif;
+  font-family: 'Acme', sans-serif;
+}
+.fonts-2{
+  font-family: 'Bree Serif', serif;
 }
 .bd-placeholder-img {
     font-size: 1.125rem;
@@ -18,12 +21,6 @@ body{
     /* margin: 2%; */
   }
 
-  /* .bg-image2{
-    background-image:url("../Imagen/profile2.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-  } */
 
   .px-15{
       padding-left: 15%;
@@ -39,9 +36,6 @@ body{
     background-color: #CDF0EA;
   }
 
-  /* .fondo3{
-    background-color: #F3F0D7;
-  } */
   
   
   .bg-image2 {
@@ -52,31 +46,28 @@ body{
     /* margin: 2%; */
   }
   
-  /* .m-10{
-    margin: 0 30% 0 30%;
-  } */
 
   .nav-hover{
     padding: 8px 12px;
     border-radius: 3px;
   }
  .nav-hover:hover{
-   background: darkslategrey;
+   background: rgb(16, 141, 141);
    transition: 1s;
+ }
+
+ .nav-hover-2{
+  padding: 8px 12px;
+  border-radius: 3px;
+}
+ .nav-hover-2:hover{
+   color: #960e68;
+  transition: 1s;
  }
  
 
   @media (min-width: 768px) {
     .bd-placeholder-img-lg {
       font-size: 3.5rem;
-    }
-  }
-
-  @media (max-widht:768px) {
-    .nav-m {
-      display: flex;
-      flex-direction: column;
-      background-color: #025955;
-
     }
   }
