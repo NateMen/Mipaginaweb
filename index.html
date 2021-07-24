@@ -32,20 +32,29 @@
 
        <!-- MENU -->
       <nav class="navbar navbar-expand-md fonts-2 fixed-top mb-5 navbar-light fondo1 bg-gradient fw-bold">
-        <a class="navbar-brand text-white nav-hover" href="https://natemen.github.io/"">NM</a>
+        <div class="container-fluid">
+          <a class="navbar-brand text-white nav-hover" href="https://natemen.github.io/"">NM</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse d-flex-sm justify-content-center me-5" id="navbarTogglerDemo01">
             <div class="navbar-nav ">
-              <a class="nav-item nav-link text-white nav-hover" href="#Home">Home</a>
-              <a class="nav-item nav-link text-white nav-hover" href="#About">About Me</a>
-              <a class="nav-item nav-link text-white nav-hover" href="#Ex">Experience</a>
-              <a class="nav-item nav-link text-white nav-hover" href="#Skills">Skills</a>
-              <a class="nav-item nav-link text-white nav-hover" href="#Port">Portfolio</a>
-              <a class="nav-item nav-link text-white nav-hover" href="#Contact">Contact</a>
+              <a class="nav-item nav-link text-white nav-hover" 
+              href="#Home">Home</a>
+              <a class="nav-item nav-link text-white nav-hover" 
+              href="#About">About Me</a>
+              <a class="nav-item nav-link text-white nav-hover"
+              href="#Ex">Experience</a>
+              <a class="nav-item nav-link text-white nav-hover" 
+              href="#Skills">Skills</a>
+              <a class="nav-item nav-link text-white nav-hover"
+              href="#Port">Portfolio</a>
+              <a class="nav-item nav-link text-white nav-hover" 
+              href="#Contact">Contact</a>
             </div>
           </div>
+        </div>
+        
       </nav>
        
 
@@ -65,13 +74,17 @@
         </div>
         <!-- <div class="col"></div> -->
         <h5 class="fw-bold text-dark">Jr Developer</h5>
+        <div id="About" >
+
+        </div>
         <h5 class="display-5 fw-bold text-dark">Nathán Mendoza</h5>
+       
       </div>
      
 
 
       <!-- ABOUT ME -->
-      <div class="row py-5 px-15 text-center align-items-center d-flex justify-content-center bg-image2" id="About">
+      <div class="row py-5 px-15 text-center align-items-center d-flex justify-content-center bg-image2">
         <h2 class="mb-3 fondo1 bg-gradient">About Me</h2>
         <!-- <div class="col"></div> -->
         <div class="col-12 col-md-10 col-lg-8 col-xl-6 mx-xl-2 col-xxl-4 fondo1 bg-gradient p-3 my-1">
@@ -91,12 +104,14 @@
             </div>
           </div>
         </div>
-        <!-- <div class="col-2"></div> -->
+        <div id="Ex" >
+
+        </div>
       </div>
 
 
       <!-- EXPERIENCE -->
-      <div class="row py-5 px-15 text-center align-items-center d-flex justify-content-center bg-image2" id="Ex">
+      <div class="row py-5 px-15 text-center align-items-center d-flex justify-content-center bg-image2">
         <h2 class="mb-3 fondo1 bg-gradient ">Experience</h2>
         <!-- <div class="col">
         </div> -->
@@ -116,11 +131,15 @@
         </div>
         <!-- <div class="col">
         </div> -->
+        <div id="Skills" >
+
+        </div>
       </div>
 
 
       <!-- SKILLS -->
-       <div class="row py-5 px-15 text-center align-items-center d-flex justify-content-center bg-image2" id="Skills">
+      
+       <div class="row py-5 px-15 text-center align-items-center d-flex justify-content-center bg-image2">
          <h2 class="mb-3 fondo1 bg-gradient">Skills</h2>
 
          <div class="col-12 col-sm-10 col-md-8 col-lg-6 col-xxl-4">
@@ -143,11 +162,14 @@
             <li class="list-group-item">Network Technical Service and Support</li>
           </ul>
          </div>
+         <div id="Port" >
+
+        </div>
         </div>
 
 
         <!-- PORTFOLIO  -->
-        <div class="row py-5 px-15 text-center align-items-center d-flex justify-content-center bg-image2" id="Port">
+        <div class="row py-5 px-15 text-center align-items-center d-flex justify-content-center bg-image2">
           <h2 class="mb-3 fondo1 bg-gradient">Portfolio</h2>
           <div class="col-12 col-md-6">
             <figure class="figure">
@@ -155,18 +177,15 @@
               <figcaption class="figure-caption fondo1 text-white">This Site: I made it using HTML, CSS, Bootstrap 5</figcaption>
             </figure>
           </div>
-          <!-- <div class="col-12 col-md-6">
-            <figure class="figure">
-              <img src="..." class="figure-img img-fluid rounded" alt="...">
-              <figcaption class="figure-caption"></figcaption>
-            </figure>
-          </div> -->
+          <div id="Contact" >
+
+          </div>
         </div>
 
 
         <!-- CONTACT-->
         <div class="bg-image">
-          <div class="row text-center d-flex justify-content-center text-dark pt-4 pb-1 " id="Contact">
+          <div class="row text-center d-flex justify-content-center text-dark pt-4 pb-1 ">
             <h2 class="mb-3 text-white">Contact Me</h2>
   
             <div class="col-12 col-md-4 align-items-center">
@@ -230,6 +249,18 @@
       </div>
 
   </main>
+
+  <script 
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+  </script>
+  <script>
+    const navLinks = document.querySelectorAll('.nav-item')
+    const menuToggle = document.getElementById('navbarTogglerDemo01')
+    const bsCollapse = new bootstrap.Collapse(menuToggle)
+    navLinks.forEach((i) => {
+    i.addEventListener('click', () => { bsCollapse.toggle() })
+    })
+  </script>
 
 </body>
 
